@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --main-color : #000000;
+    --primary-color: #ffffff;
+    --secondary-color: #d10606;
+}
+
+/* navbar */
+#navbar{
+    background-color: var(--secondary-color);
+    height: 14vh;
+}
+#navbar .chef-logo{
+    margin-left: 1rem;
+}
+
+#navbar .chef-nav{
+    display: flex;
+}
+#navbar .nav-text ul{
+    /* border: 2px solid var(--primary-color); */
+    margin-top: 1.5rem;
+    width: 100%;
+    margin-left: 12rem;
+    text-align: right;
+}
+
+#navbar .chef-nav .nav-text ul li{
+    display: inline;
+    padding-left: 4rem;
+    /* border: 2px solid white; */
+
+}
+#navbar .chef-nav .nav-text ul li a{
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+#navbar .chef-nav .chef-logo img{
+    width: 5rem;
+}
+
+
+/* chef section  */
+#chef-section{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 80vh;
+}
+#chef-section .chef-img img{
+    height: 80vh;
+}
+#chef-section .chef-text h1{
+    font-size: 5rem;
+}
+#chef-section .chef-text .i{
+    color: var(--secondary-color);
+    /* border: 2px solid red; */
+}
+#chef-section .chef-text p{
+    width: 100%;
+}
+#chef-section .chef-text{
+    /* border: 2px solid red; */
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+#chef-section .view-menu a{
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+}
+#chef-section .view-menu:hover a{
+    background-color: var(--primary-color);
+    color: var(--main-color);
+}
+
+/* break text  */
+#site{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 1rem;
+    padding: 1rem;
+}
+#site h2{
+    font-size: 2rem;
+}
+
+/* Images  */
+#pic-t{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 95%;
+    margin-left: 1rem;
+    
+    
+}
+#pic-t .pi img{
+    width: 95%;
+    height: 45vh;
+    /* border: 2px solid red; */
+    padding-left: 1.5rem;
+}
+#pic-t .pii img{
+    width: 95%;
+    height: 45vh;
+    padding-left: 0.7rem;
+    /* border: 2px solid red; */
+}
+#pic-t .piii img{
+    height: 45vh;
+    width: 130%;
+    /* border: 2px solid red; */
+}
+
+#prices{
+    font-weight: bolder;
+    display: flex;
+    gap: 35%;
+    margin-left: 18%;
+    color: purple;
+}
+#pic-b{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 95%;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+#pic-b .p img{
+    width: 95%;
+    height: 45vh;
+    /* border: 2px solid red; */
+    padding-left: 1.5rem;
+}
+#pic-b .pr img{
+    width: 96%;
+    height: 45vh;
+    padding-left: 0.8rem;
+    /* border: 2px solid red; */
+}
+#pic-b .pt img{
+    height: 45vh;
+    width: 96%;
+    margin-left: 0.5rem;
+    /* border: 2px solid red; */
+}
+
+#pricesb{
+    font-weight: bolder;
+    display: flex;
+    gap: 35%;
+    margin-left: 18%;
+    color: purple;
+}
+
+/* footer  */
+#footer{
+    background-color: rgb(24, 24, 104);
+    display: flex;
+    text-align: center;
+}
+#footer img{
+    width: 20%;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+#footer .text{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+#footer .text ul{
+    display: flex;
+    margin-left: 4rem;
+    gap: 10rem;
+    padding-top: 2rem ;
+    color:var(--primary-color);
+}
+
